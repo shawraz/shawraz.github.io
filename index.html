@@ -43,6 +43,42 @@
             font-size: 24px;
             color: #212121;
         }
+
+        /* Social Icons */
+        .icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        /* Contact form */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body class="is-preload">
@@ -51,7 +87,7 @@
     <header id="header">
         <div class="inner">
             <a href="#" class="image avatar"><img src="images/kitana/IMG_1072.jpg" alt="Sadman Shawraz" /></a>
-            <h1><strong>I am Shawraz</strong>, an aspirin scientist.<br />
+            <h1><strong>I am Shawraz</strong>, an aspiring scientist.<br />
                 Currently, a Research Technician at <br /> <a href="https://www.bqvlab.org/">Dr. Bao Q. Vuong's Lab</a>.<br />@ <a href="https://www.ccny.cuny.edu/">The City College of New York, CUNY</h1>
         </div>
     </header>
@@ -86,6 +122,29 @@
                 • Statistical analysis using Prism & Excel; basic Python programming; protein structure analysis using PyMol.<br>
                 • Languages: Fluent in English and Bengali, capacity to understand and speak Hindi & understand Urdu.
             </p>
+        </section>
+
+        <!-- Social Media Icons -->
+        <div class="icons">
+            <a href="https://linkedin.com/in/shawraz" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://x.com/SShawraz" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" style="width: 30px; height: 30px;">
+            </a>
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-form">
+            <header>
+                <h2>Contact Me</h2>
+            </header>
+            <form action="mailto:shawraz09@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
 
     </div>
